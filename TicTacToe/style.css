@@ -5,13 +5,13 @@
 
 #heading1{
     font-size: 5rem;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(246, 59, 90);
 }
 
 body {
     background-color: rgb(255, 255, 155);
-    color: rgb(246, 59, 90);
     text-align: center;
 }
 
@@ -48,11 +48,45 @@ body {
 }
 
 #reset{
-    padding: 1.5rem;
-    font-size: 1.5rem;
+    padding: 1.3rem;
+    font-size: 1.2rem;
     background-color: rgb(255, 147, 165);
     border-radius: 1.3rem;
     border: none;
     color: beige;
 
+}
+
+#newGame{
+    padding: 1.7rem;
+    font-size: 1.5rem;
+    background-color: rgb(255, 147, 165);
+    border-radius: 1.3rem;
+    border: none;
+    color: beige;
+    margin-top: 20px;
+}
+
+.msg-container{
+    font-size: 4rem;
+    margin-top: 2.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(255, 56, 89);
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+#newGame{
+    margin-top: 60px;
+}
+
+.hide{
+    display: none;
 }
