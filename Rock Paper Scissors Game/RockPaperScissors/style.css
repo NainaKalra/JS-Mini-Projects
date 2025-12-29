@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: rgb(238, 238, 238);
+    background-color: rgb(4, 13, 40);
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+}
+body{
+    background-color: aliceblue;
+}
+.choices {
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* space between rock/paper/scissors */
+}
+
+.choice {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 50%;
+}
+#rock img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#paper img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+#scissors img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: rgb(4, 13, 40);
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 50px;
+    text-align: center;
+    margin: 3rem;
+}
+
+#you, #computer{
+    font-size: 4rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.msg-container{
+    text-align: center;
+    margin: 2rem;
+}
+#msg {
+    background-color: rgb(4, 13, 40);
+    color: white;
+    text-align: center;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    display: inline;
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
+
+
