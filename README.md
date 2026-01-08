@@ -17,7 +17,9 @@ It’s meant for practicing basic JavaScript, HTML, and CSS skills.
    Play Tic Tac Toe with a friend.  
 
 ---
-Demo Link - 
+
+Demo Link - https://nainakalra.github.io/JS-Mini-Projects/
+
 ## How to use
 
 - You can also download the project or clone it:  
