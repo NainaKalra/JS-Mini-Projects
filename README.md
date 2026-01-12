@@ -14,7 +14,10 @@ It’s meant for practicing basic JavaScript, HTML, and CSS skills.
    Play the classic game against the computer.  
 
 3. **Tic Tac Toe**  
-   Play Tic Tac Toe with a friend.  
+   Play Tic Tac Toe with a friend.
+
+3. **Netflix Clone**  
+   A project to practice HTML & CSS.
 
 ---
 
