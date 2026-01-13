@@ -32,3 +32,5 @@ git clone https://github.com/nainakalra/JS-Mini-Projects.git
 ```
 
 * Open the index.html in your browser and click on the project you want to try.
+
+
