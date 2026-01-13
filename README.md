@@ -7,17 +7,21 @@ It’s meant for practicing basic JavaScript, HTML, and CSS skills.
 
 ## Projects
 
-1. **Currency Converter**  
+1. **tinDog**  
+   Tinder for Dogs made using Bootstrap
+
+2. **Currency Converter**  
    Convert money between different currencies.  
 
-2. **Rock Paper Scissors**  
+3. **Rock Paper Scissors**  
    Play the classic game against the computer.  
 
-3. **Tic Tac Toe**  
+4. **Tic Tac Toe**  
    Play Tic Tac Toe with a friend.
 
-3. **Netflix Clone**  
+5. **Netflix Clone**  
    A project to practice HTML & CSS.
+
 
 ---
 
