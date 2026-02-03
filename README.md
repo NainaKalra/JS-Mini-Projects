@@ -7,19 +7,22 @@ It’s meant for practicing basic JavaScript, HTML, and CSS skills.
 
 ## Projects
 
-1. **tinDog**  
-   Tinder for Dogs made using Bootstrap
+1. **Drum-Kit**  
+   Drumkit made using JS with sounds and animations.
 
-2. **Currency Converter**  
+2. **tinDog**  
+   Tinder for Dogs made using Bootstrap.
+
+3. **Currency Converter**  
    Convert money between different currencies.  
 
-3. **Rock Paper Scissors**  
+4. **Rock Paper Scissors**  
    Play the classic game against the computer.  
 
-4. **Tic Tac Toe**  
+5. **Tic Tac Toe**  
    Play Tic Tac Toe with a friend.
 
-5. **Netflix Clone**  
+6. **Netflix Clone**  
    A project to practice HTML & CSS.
 
 
