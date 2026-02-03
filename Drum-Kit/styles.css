@@ -1,18 +1,18 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #d7e681;
 }
 
 h1 {
   font-size: 5rem;
-  color: #DBEDF3;
+  color: #390d32;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  text-shadow: 3px 0 #dfc8d3;
 
 }
 
 footer {
-  color: #DBEDF3;
+  color: #000200;
   font-family: sans-serif;
 }
 
@@ -64,12 +64,12 @@ background-image: url(images/kick.png);
 
 .drum {
   outline: none;
-  border: 10px solid #404B69;
+  border: 10px solid #19330e;
   font-size: 5rem;
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
+  color: #f91d75;
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
   display: inline-block;

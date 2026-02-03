@@ -7,6 +7,7 @@ for(var i=0; i<noDrumButtons; i++){
         var buttonInnerHTML = this.innerHTML;
 
         makeSound(buttonInnerHTML);
+        buttonAnimation(buttonInnerHTML);
 
         switch (buttonInnerHTML){
             case "w":
@@ -54,7 +55,8 @@ for(var i=0; i<noDrumButtons; i++){
 //Detecting key press
 
 document.addEventListener("keydown",function(event){
-    makeSound(event.key)
+    makeSound(event.key);
+    buttonAnimation(event.key);
 });
 
 
@@ -99,5 +101,17 @@ function makeSound(key){
 
         default: console.log(buttonInnerHTML)
     }
+
+}
+
+function buttonAnimation(currentKey){
+var activeButton = document.querySelector("." + currentKey)
+//Adding class using js
+activeButton.classList.add("pressed");
+
+//using a timeout function
+setTimeout(function(){
+    activeButton.classList.remove("pressed")
+}, 150);
 
 }
